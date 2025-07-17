@@ -1,0 +1,24 @@
+.breadcrumb {
+  font-weight: 500;
+}
+
+.breadcrumb-link {
+  color: var(--Neutral-600);
+}
+
+.breadcrumb-link:hover {
+  color: var(--Neutral-900);
+}
+
+.breadcrumb-link--active {
+  color: var(--Neutral-900);
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.breadcrumb-list li + li::before {
+  content: "/";
+  margin-left: 8px;
+  margin-right: 2px;
+  color: var(--Neutral-300);
+}

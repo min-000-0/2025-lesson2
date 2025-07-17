@@ -1,0 +1,103 @@
+.title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 1.2;
+  padding: 7px 0;
+}
+
+.aside {
+  width: 196px;
+  flex-shrink: 0;
+}
+
+.aside ul {
+  flex-direction: column;
+  gap: 16px;
+}
+
+.aside a {
+  display: block;
+  color: var(--Neutral-900);
+  font-weight: 500;
+  padding: 12px 0;
+}
+
+.aside a:hover {
+  color: var(--Neutral-600);
+}
+
+.aside ul li:first-child a {
+  color: var(--Primary-400);
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.main-content {
+  flex-direction: column;
+  align-items: center;
+}
+
+.product-list {
+  column-gap: 24px;
+  row-gap: 48px;
+  flex-wrap: wrap;
+}
+
+.product-item a {
+  color: var(--Neutral-900);
+}
+
+.subtitle {
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 4px;
+}
+
+.product-item p {
+  font-weight: 500;
+}
+
+.bi-chevron-left,
+.bi-chevron-right {
+  font-size: 1.25rem;
+  line-height: 1;
+}
+
+.pagination-list {
+  gap: 8px;
+}
+
+.pagination-link {
+  display: flex;
+  padding: 8px;
+  min-width: 40px;
+  min-height: 40px;
+  justify-content: center;
+  align-items: center;
+  color: var(--Neutral-900);
+  cursor: pointer;
+}
+
+.pagination-link:hover {
+  background-color: var(--Neutral-100);
+}
+
+.pagination-link--active {
+  background-color: var(--Primary-300);
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.pagination-link:disabled,
+.pagination-link--disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.pagination-ellipsis {
+  display: flex;
+  justify-content: center;
+  padding: 8px;
+  min-width: 40px;
+}

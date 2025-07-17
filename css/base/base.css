@@ -1,0 +1,47 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  outline: 1px solid blue;
+}
+
+:root {
+  --Primary-200: #e8fec5;
+  --Primary-300: #c0fa73;
+  --Primary-400: #57a203;
+
+  --Function-Danger: #d74f4f;
+
+  --Neutral-900: #212529;
+  --Neutral-700: #495057;
+  --Neutral-600: #6c757d;
+  --Neutral-500: #adb5bd;
+  --Neutral-300: #dee2e6;
+  --Neutral-100: #f8f9fa;
+  --Neutral-000: #ffffff;
+}
+
+body {
+  color: var(--Neutral-900);
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  vertical-align: middle;
+  max-width: 100%;
+  height: auto;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+}
